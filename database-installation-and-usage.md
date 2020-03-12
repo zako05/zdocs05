@@ -72,3 +72,5 @@ vacuumdb --all
 ```bash
 pg_archivecleanup -d /mnt/standby/archive %r 2>>cleanup.log
 ```
+# MySQL
+[todo]
