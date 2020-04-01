@@ -3,6 +3,7 @@
 links: 
 - https://gist.github.com/nepsilon/156387acf9e1e72d48fa35c4fabef0b4
 - https://help.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message
+
 [todo]
 ## Change message of a pushed commit
 link: https://stackoverflow.com/a/11603609/9822844
@@ -24,7 +25,9 @@ git push origin your-branch-name -f
 ```
 ## Moving committed (but not pushed) changes to a new branch
 link: https://stackoverflow.com/a/5066120
+
 [todo]
 ## vim-fugitive workflow 
 link: https://github.com/tpope/vim-fugitive
+
 [todo]
