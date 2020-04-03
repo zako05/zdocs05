@@ -31,3 +31,8 @@ link: https://stackoverflow.com/a/5066120
 link: https://github.com/tpope/vim-fugitive
 
 [todo]
+
+## Deleting a branch
+link: https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+
+[todo]
