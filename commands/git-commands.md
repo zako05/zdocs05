@@ -36,3 +36,21 @@ link: https://github.com/tpope/vim-fugitive
 link: https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
 
 [todo]
+
+## How to migrate a GIT repository
+
+e.g. migrate from BitBucket to GitLab
+
+link :https://gitenterprise.me/2016/03/30/how-to-migrate-a-git-repository/
+
+create a repo where you want to migrate
+
+```bash
+git clone --mirror <ssh-to-source-repo>
+cd <path-to-repo-want-to-migrate> 
+git push --mirror <ssh-to-destination-repo>
+rm -rf <source-repo>
+git clone <destinatio-repo>
+```
+
+[todo]
