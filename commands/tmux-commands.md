@@ -7,3 +7,8 @@ prefix key: `ctrl + a`
 `prefix key + '` then write an index (choose a number of window)
 
 `prefix kye + w` then select window
+
+## Reorder tmux windows (tabs)
+
+[todo]
+link: https://superuser.com/a/343574

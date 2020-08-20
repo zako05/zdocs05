@@ -37,7 +37,7 @@ link: https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-
 
 [todo]
 
-## How to migrate a GIT repository
+## Migrate a GIT repository
 
 e.g. migrate from BitBucket to GitLab
 
@@ -54,3 +54,8 @@ git clone <destinatio-repo>
 ```
 
 [todo]
+
+## Merge master into feature branch
+
+[todo]
+link: https://stackoverflow.com/a/16957483
