@@ -1,4 +1,12 @@
-# Method 'DELETE'
+# GET
+
+[todo]
+
+# POST
+
+[todo]
+
+# DELETE
 
 Examples:
 
