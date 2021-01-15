@@ -59,3 +59,8 @@ git clone <destinatio-repo>
 
 [todo]
 link: https://stackoverflow.com/a/16957483
+
+## git pull --ff-only
+link: https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only-git-is-a
+
+[todo]
