@@ -1,6 +1,21 @@
 title: ECMAScript 6 (or ECMAScript 2015)
 published: 2015
 
+# Arrow Functions
+link: https://www.hackerrank.com/challenges/js10-arrows/topics/javascript-arrow-functions
+
+[todo]
+
+```javascript
+return nums.map((n) => {
+  return n = (n%2==0) ? n*2 : n*3
+  });
+```
+or
+```javascript
+return nums.map(n => n = (n%2==0) ? n*2 : n*3);
+```
+
 # Inheritance & Prototype
 
 [todo]
