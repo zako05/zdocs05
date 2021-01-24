@@ -1,6 +1,13 @@
 title: ECMAScript 6 (or ECMAScript 2015)
 published: 2015
 
+# Map
+link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+link: https://codingblast.com/javascript-set-map/
+link: https://www.geeksforgeeks.org/map-entries-javascript/
+
+[todo]
+
 # Button Creation
 link: https://www.hackerrank.com/challenges/js10-create-a-button/problem
 
