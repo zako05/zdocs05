@@ -1,14 +1,21 @@
 # Virtualbox (Vagrant) - Linux Ubuntu 18.04 - Google Chrome (Stable / Beta) can't run - GPU unusable
+
 ## Problem
+
 **when** run following command
+
 ```bash
 google-chrome-stable
 ```
+
 or
+
 ```bash
 google-chrome-beta
 ```
+
 **then** system return error "FATAL:gpu_data_manager_impl_private.cc(439)] GPU process isn't usable."
+
 ```bash
 Gtk-Message: 13:12:12.891: Failed to load module "canberra-gtk-module"
 Gtk-Message: 13:12:12.898: Failed to load module "canberra-gtk-module"
@@ -33,20 +40,29 @@ Gtk-Message: 13:12:12.898: Failed to load module "canberra-gtk-module"
 [5900:5917:0309/131215.706549:FATAL:gpu_data_manager_impl_private.cc(439)] GPU process isn't usable. Goodbye.
 Trace/breakpoint trap (core dumped)
 ```
+
 ## Cause
+
 There is a common Google Chrome error when trying to run it in Linux due to Chrome's GPU usage.
+
 **link:** [Solving Google Chrome's gpu-process error message in Ubuntu Linux](https://simpleit.rocks/linux/ubuntu/fixing-common-google-chrome-gpu-process-error-message-in-linux/)
 
 ## Solution
+
 The easiest solution is to avoid using GPU hardware acceleration with the following flags:
+
 ```bash
 google-chrome-stable --disable-gpu --disable-software-rasterizer
 ```
+
 Or enable [SwiftShader](https://opensource.google/projects/swiftshader) that provides high-performance graphics rendering on the CPU. SwiftShader allows Chromium and Google Chrome to support WebGL and other advanced 3D graphics on machines without 3D graphics hardware.
+
 ```bash
 google-chrome-stable --use-gl=swiftshader
+```
 
 or
 
+```bash
 google-chrome --use-gl=swiftshade
 ```
