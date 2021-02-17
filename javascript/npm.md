@@ -1,6 +1,19 @@
 # NPM - Node Package Manager
 link: https://www.npmjs.com/
 
+## Installation
+links: 
+ - https://linuxconfig.org/how-to-install-node-js-on-linux
+ - https://nodejs.dev/learn/how-to-install-nodejs
+
+```bash
+brew install node
+```
+
+```bash
+sudo apt install npm
+```
+
 [todo]
 ---
 # Packages
