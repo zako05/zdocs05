@@ -2,8 +2,7 @@
 
 or YARN
 
-link: https://www.npmjs.com/
-
+link: https://www.npmjs.com/ 
 ## Installation
 
 links: 
@@ -74,6 +73,12 @@ nvm use 12.20.0
 npm install -g yarn
 ```
 
+uninstall particular node version
+```bash
+nvm dactivate
+nvm uninstall 12.40.0
+```
+
 ---
 # Packages
 
@@ -83,6 +88,22 @@ link:  https://nodejs.dev/learn/how-to-install-nodejs
 
 ```bash
 brew install node
+```
+
+## AVN - Automatic version switching
+
+link: https://www.npmjs.com/package/avn
+
+```bash
+npm install -g avn avn-nvm avn-n
+```
+
+## NPX - execute npm package binaries
+
+link: https://www.npmjs.com/package/npx
+
+```bash
+npx browserslist@latest --update-db
 ```
 
 ## Cypress & Testing related package
