@@ -54,3 +54,12 @@ link: https://github.com/bahdcoder/xss-attacks-example
 * refresh token rotation
   * application ->  local storage -> auth
   * link: https://github.com/bahdcoder/refresh-token-rotation
+
+# [clerk.dev](clerk.dev)
+
+link:
+
+* https://stripe.com/docs/development
+* https://jamstack.org/what-is-jamstack/
+
+[todo]
