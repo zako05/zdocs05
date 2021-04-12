@@ -45,6 +45,8 @@ links:
 * https://www.linuxfordevices.com/tutorials/linux/htop-command-in-linux#CPU-and-Memory-Usage
 * https://htop.dev/
 
+### Process Information
+
 * PID (Process ID) - Unique number designated to the process.
 * VIRT (Virtual Memory) – The amount of virtual memory the process is consuming.
 * RES (Resident Memory) – The proportion of RAM the process is using.
@@ -52,6 +54,8 @@ links:
 * S (Status) – The current state of the process, S – Sleeping, R – Running, etc.
 * CPU% – The percentage of CPU used by the process.
 * MEM% – The percentage of Memory consumed by the process.
+
+### Interactive Options
 
 **F3 – Search for a Process**
 
