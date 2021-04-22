@@ -70,5 +70,3 @@ describe('Describe', function () {
   })
 })
 ```
-
-
