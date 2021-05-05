@@ -12,15 +12,16 @@
    * Cloud (Nomad)
    * On-premise (Nomad)
 * Only me as tester
-* 
+
+![fingera-platform-infrastructure](./images/fingera-platform-testing-at-stage.png)
 
 ## Development
 
-**Infrastructure:**
+### Current Environment
+
+**Fingera current infrastructure:**
 
 ![fingera-infrastructure](./images/inno-fingera-infrastructure.png)
-
-### Current Environment
 
 * Development (running locally in Docker or in VM (VirtualBox + Vagrant))
 * Staging 
@@ -32,8 +33,12 @@
 
 ### New Environment - Fingera Platform (not in production at the time)
 
+**Fingera platform infrastructure:**
+
+![fingera-platform-infrastructure](./images/fingera-platform-aws-ec2.png)
+
 * Staging
-  * Cloud (AWS + Nomad)
+  * Cloud (AWS (EC2) + Nomad)
   * On-premise (VM in local server + Nomad)
 
 ### Server description
