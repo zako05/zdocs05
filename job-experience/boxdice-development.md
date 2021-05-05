@@ -50,45 +50,55 @@
 
 ## Development
 
-* Environment / Servers / Technologies
-  * Git & GitHub
-  * AWS
-  * servers:
-    * Proxy
-    * Apps
-      * Ruby On Rails
-      * PHP
-    * MariaDB
-    * Assets
-    * Hub Web
-      * PostgreSQL
-  * Linux: Debian - Cron jobs
-  * Elasticsearch
-  * Docker
-  * rails-sidekiq
-    * efficient background processing for Ruby
-    * it uses threads to handle many jobs at the same time in the same process
-  * Octopus Deploy
-  * Redis - data structure store, used as a database, cache & message broker
-    * used on RoR side
-    * support only transient (prechodne) messages 
-    * devs prefer for real-time apps
-  * Memcached
-    * used on PHP side
-    * key-value store
-      * it is very rarely that redis is  your primary database
-      * it will almost always be a supplementary tool to another database
-    * I like to think of a key-value store as a giant JavaScript object e.g. `store['my-key'] = 5` and later `store['key']`
-    * Key-value stores are commonly used as caches
-    * usage: run expensive query once a day (due to its rarely update) and then store the result in Redis
-      * then app won't run the query against PostgreSQL, but first read from the key-value store
-  * RabbitMQ - message broker
-    * support both persistent & transient messages
-    * devs prefer for re-process in case of failure
-    * good handles large messages 
-    * it guarantees delivery of messages
+### Environment
 
-links: 
+### Servers
+
+* Proxy
+* Apps
+  * Ruby On Rails
+  * PHP
+* MariaDB
+* Assets
+* Hub Web
+  * PostgreSQL
+  * Docker
+
+### Technologies
+
+* Linux Debian
+* Git & GitHub
+* AWS
+* Elastic Search
+* Docker
+* Octopus Deploy
+* Redis - data structure store, used as a database, cache & message broker
+  * used on RoR side
+  * support only transient (prechodne) messages 
+  * devs prefer for real-time apps
+* Memcached
+  * used on PHP side
+  * key-value store
+    * it is very rarely that redis is  your primary database
+    * it will almost always be a supplementary tool to another database
+  * I like to think of a key-value store as a giant JavaScript object e.g. `store['my-key'] = 5` and later `store['key']`
+  * Key-value stores are commonly used as caches
+  * usage: run expensive query once a day (due to its rarely update) and then store the result in Redis
+    * then app won't run the query against PostgreSQL, but first read from the key-value store
+* RabbitMQ - message broker
+  * support both persistent & transient messages
+  * devs prefer for re-process in case of failure
+  * good handles large messages 
+  * it guarantees delivery of messages
+
+### Other
+
+* Linux: Debian - Cron jobs
+* rails-sidekiq
+  * efficient background processing for Ruby
+  * it uses threads to handle many jobs at the same time in the same process
+
+**links:**
 
 * https://www.digitalocean.com/community/tutorials/how-to-add-sidekiq-and-redis-to-a-ruby-on-rails-application
 * https://github.com/mperham/sidekiq
@@ -99,5 +109,3 @@ links:
 * https://www.rabbitmq.com/
 * https://www.educba.com/rabbitmq-vs-redis/
 * https://octopus.com/
-
-## Others
