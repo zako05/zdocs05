@@ -54,11 +54,14 @@
 
 * development - running locally, each developer / tester has own one
 * staging - close to production - running on AWS servers
+ * Main app
+ * Hub
 * production
+* Mobile App (iOS - React Native) linked to Hub (where all data are centralized at the one place)
 
 ### Server
 
-* Proxy
+* Proxy (Nginx)
 * Apps
   * Ruby On Rails
   * PHP
@@ -73,9 +76,10 @@
 * Linux Debian
 * Git & GitHub
 * AWS
+* Nginx
 * Elastic Search
 * Docker
-* Octopus Deploy
+* Octopus Deploy ?
 * Redis - data structure store, used as a database, cache & message broker
   * used on RoR side
   * support only transient (prechodne) messages 
