@@ -52,7 +52,11 @@
 
 ### Environment
 
-### Servers
+* development - running locally, each developer / tester has own one
+* staging - close to production - running on AWS servers
+* production
+
+### Server
 
 * Proxy
 * Apps
