@@ -15,12 +15,24 @@ NPM
 sudo apt install npm
 ```
 
+or
+
+```bash
+brew install node
+```
+
 YARN
 
 ```bash
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update && sudo apt install yarn 
+```
+
+or
+
+```bash
+npm install --global yarn
 ```
 
 # NVM - Node Version Manager
@@ -35,6 +47,10 @@ links:
 ```bash
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
+
+### Troubleshooting on macOS
+
+link: https://github.com/nvm-sh/nvm#troubleshooting-on-macos
 
 when YARN is already installed you need to reinstall the yarn for the new node version
 
