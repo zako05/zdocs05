@@ -52,6 +52,18 @@ link: https://stackoverflow.com/a/11603609/9822844
 #### last commit
 
 ```bash
+git commit --amend
+```
+
+or with message
+
+```bash
+git commit --amend -m "message"
+```
+
+or
+
+```bash
 git rebase -i HEAD^
 ```
 
