@@ -1,5 +1,23 @@
 # GIT Commands & Techniques
 
+## Reset 
+
+In order to revert already committed changes, but you are few commits behind, so you cannot do `git pull` or `git stash`.
+
+You can reset to previous state using `git relog` to find where to go and `git reset`, to go there.
+
+```bash
+git reflog
+git reset HEAD@{<number-of-head>}
+```
+
+e.g.
+
+```bash
+git reflog
+git reset HEAD@{1}
+```
+
 ## Remove committed file after push
 
 link: https://stackoverflow.com/a/22041320/9822844
