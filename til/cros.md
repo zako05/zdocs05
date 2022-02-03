@@ -25,8 +25,6 @@ CORS failures result in errors but for security reasons, specifics about the err
 
 ### Simple request
 
-![](./images/access-control-scenario-1.jpg)
-
 ![](./images/access-control-scenario.jpg)
 
 ## See also
