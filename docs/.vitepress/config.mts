@@ -4,6 +4,7 @@ export default defineConfig({
   title: "ZDocs05",
   description: "Things worth remembering",
   cleanUrls: true,
+  base: '/docs/',
   themeConfig: {
     search: { provider: 'local' },
 
